@@ -1,18 +1,18 @@
 
-Name:      qubes-mgmt-salt-dom0-update
-Version:   @VERSION@
-Release:   1%{?dist}
-Summary:   Custom 'pkg' module that enables state files to install or update packages in dom0
-License:   GPL 2.0
-URL:	   http://www.qubes-os.org/
+Name:       qubes-mgmt-salt-dom0-update
+Version:    @VERSION@
+Release:    1%{?dist}
+Summary:    Custom 'pkg' module that enables state files to install or update packages in dom0
+License:    GPL 2.0
+URL:        http://www.qubes-os.org/
 
-Group:     System administration tools
-BuildArch: noarch
-Requires:  qubes-mgmt-salt
-Requires:  qubes-mgmt-salt-dom0
-Requires:  qubes-core-dom0-linux >= 4.1.4
+Group:      System administration tools
+BuildArch:  noarch
+Requires:   qubes-mgmt-salt
+Requires:   qubes-mgmt-salt-dom0
+Requires:   qubes-core-dom0-linux >= 4.1.4
 
-Source0: %{name}-%{version}.tar.gz
+Source0:    %{name}-%{version}.tar.gz
 
 %description
 Custom 'pkg' module that enables state files to install or update packages in dom0
